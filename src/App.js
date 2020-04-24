@@ -18,7 +18,9 @@ function App() {
       </nav>
       <div className="App">
         <Switch>
+          {/* A homepage that has a "/" route and links to your form (button, nav bar, or any other type of link is acceptable) */}
           <Route exact path="/" component={Home} />
+          {/* A form with a "/pizza" route */}
           <Route path="/form" component={Form} />
         </Switch>
       </div>
